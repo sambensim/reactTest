@@ -1,4 +1,6 @@
-import React from 'react';
+// import React from 'react';
+import PropTypes from 'prop-types';
+import DataForm from './DataForm';
 
 const DataList = ({dataList}) => {
     return (
@@ -8,6 +10,10 @@ const DataList = ({dataList}) => {
             ))}
         </ul>
     );
+};
+
+DataList.propTypes = {
+    dataList: PropTypes.array.isRequired,
 };
 
 export default DataList;

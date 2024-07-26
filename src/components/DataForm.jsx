@@ -1,5 +1,6 @@
-import React, {useState} from "react";
+import {useState} from "react";
 import {supabase} from '../supabaseClient';
+import PropTypes from 'prop-types';
 
 const DataForm = ({onNewData}) => {
     const [data, setData] = useState('');
@@ -28,6 +29,10 @@ const DataForm = ({onNewData}) => {
             <button type = "submit"> Save </button>
         </form>
     );
+};
+
+DataForm.propTypes = {
+    onNewData: PropTypes.func.isRequired,
 };
 
 export default DataForm;
