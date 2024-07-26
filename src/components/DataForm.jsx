@@ -13,9 +13,11 @@ const DataForm = ({onNewData}) => {
             .insert([{text: data}]);
         if (error) {
             console.error('Error inseting data:', error);
-        } else {
+        } else if (newData && newData.length > 0) {
             onNewData(newData[0]);
             setData('');
+        } else {
+            console.error('No data returned from insert');
         }
     };
 
