@@ -1,6 +1,6 @@
 // import React from 'react';
 import PropTypes from 'prop-types';
-import DataForm from './DataForm';
+// import DataForm from './DataForm';
 
 const DataList = ({dataList}) => {
     return (
