@@ -1,6 +1,5 @@
-// import React from 'react';
+///Users/samsimmons/Desktop/website stuff/react/vite-test copy/src/components/DataList.jsx
 import PropTypes from 'prop-types';
-// import DataForm from './DataForm';
 
 const DataList = ({dataList}) => {
     return (

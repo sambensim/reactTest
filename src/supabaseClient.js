@@ -1,3 +1,4 @@
+///Users/samsimmons/Desktop/website stuff/react/vite-test copy/src/supabaseClient.js
 import {createClient} from '@supabase/supabase-js';
 
 const supabaseUrl = "https://qlnixgxdfazozghesomi.supabase.co";

@@ -1,3 +1,4 @@
+///Users/samsimmons/Desktop/website stuff/react/vite-test copy/src/App.jsx
 import { useEffect, useState } from 'react'
 import './App.css'
 import {supabase} from "./supabaseClient";
